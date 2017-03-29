@@ -10,6 +10,7 @@
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/personal-font.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -65,7 +66,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.jpg" style="width:115px;height:115px" class="img-responsive" alt="logo"></a>
+                    <img src="images/logo.jpg" class="logo-penca img-responsive" alt="logo"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
@@ -143,7 +144,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/shampoo.png)">
+                <div class="item" style="background-image: url(images/slider/shampoo3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -198,7 +199,7 @@
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-cloud-download"></i>
+                            <i class="icon-fa-belleza"></i>
                             <h2>Belleza</h2>
                             <h3>Cabello atractivo que perdura.</h3>
                         </div>
@@ -765,5 +766,10 @@
     .carousel-content
     {
         margin-left: 30px;
+    }
+    .logo-penca
+    {
+        width:90px;height:60px;
+        border-radius: 50%;
     }
 </style>
